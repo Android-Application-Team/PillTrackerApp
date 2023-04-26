@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_name_of_medicine_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of Medicine:"
+            android:textColor="@color/purple_700"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_name_of_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:text="Aspirin"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dose:"
+            android:textColor="@color/purple_700"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_dose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:text="100 mg"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/dateTaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time to take medicine:"
+            android:textColor="@color/purple_700"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_time_to_take_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            tools:text="08:00 AM" />
+
+        <TextView
+            android:id="@+id/additionalNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remaining medicine:"
+            android:textColor="@color/purple_700"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_remaining_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            tools:text="20 pills" />
+
+        <TextView
+            android:id="@+id/tv_additional_notes_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:text="Additional notes:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_additional_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            tools:text="Take with food." />
+
+        <Button
+            android:id="@+id/send_notification_btn"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:text="Send Notification" />
+
+
+    </LinearLayout>
+</ScrollView>

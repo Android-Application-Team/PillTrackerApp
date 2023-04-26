@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_pills"
+        android:icon="@drawable/baseline_local_pharmacy_24"
+        android:title="My Pills" />
+
+    <item
+        android:id="@+id/log"
+        android:icon="@drawable/baseline_local_pharmacy_24"
+        android:title="Log" />
+
+    <item
+        android:id="@+id/pharmacy"
+        android:icon="@drawable/baseline_local_pharmacy_24"
+        android:title="pharmacy" />
+</menu>

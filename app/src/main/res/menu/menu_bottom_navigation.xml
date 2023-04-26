@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_myPills"
+        android:icon="@drawable/baseline_medication_24"
+        android:title="@string/my_pills_nav_text"/>
+
+    <item
+        android:id="@+id/nav_log"
+        android:icon="@drawable/baseline_log_24"
+        android:title="@string/log_nav_text"/>
+
+    <item
+        android:id="@+id/nav_pharmacy"
+        android:icon="@drawable/baseline_local_pharmacy_24"
+        android:title="@string/pharmacy_nav_text"/>
+</menu>
